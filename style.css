@@ -284,15 +284,15 @@ header {
   font-size: 16px;
 }
 .service-grid-container {
-  display: grid;
+  
   }
  .service-grid-item {
-   width: 200px;
-   height: 50px;
-   background-color: orange;
-   border: solid;
-   color: black;
+  
  } 
+ 
+ .grid-container {
+   justify-content: start| end | center | stretch;
+ }
 @media screen and (max-width: 980px) {
   header {
     padding-bottom: 0;
